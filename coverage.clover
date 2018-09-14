@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1536950012">
+  <project timestamp="1536950012">
+    <package name="juniorb2ss\LinioChallenge\Abstracts">
+      <file name="/var/www/html/projects/linio-challenge/src/Abstracts/ChallengerAbstract.php">
+        <class name="juniorb2ss\LinioChallenge\Abstracts\ChallengerAbstract" namespace="juniorb2ss\LinioChallenge\Abstracts" fullPackage="Linio" package="Linio">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+        </class>
+        <line num="51" type="method" name="setResponse" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="53" type="stmt" count="3"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="60" type="method" name="getResponse" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="69" type="method" name="addResponseValue" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="71" type="stmt" count="3"/>
+        <line num="72" type="stmt" count="3"/>
+        <line num="78" type="method" name="addResponseArray" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="80" type="stmt" count="3"/>
+        <line num="81" type="stmt" count="3"/>
+        <metrics loc="82" ncloc="42" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="juniorb2ss\LinioChallenge">
+      <file name="/var/www/html/projects/linio-challenge/src/Challenger.php">
+        <class name="juniorb2ss\LinioChallenge\Challenger" namespace="juniorb2ss\LinioChallenge">
+          <metrics complexity="5" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
+        </class>
+        <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="42" type="method" name="buildNumberRange" visibility="private" complexity="1" crap="1" count="3"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="52" type="method" name="changeNumbersWordArray" visibility="private" complexity="3" crap="3" count="3"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="57" type="stmt" count="3"/>
+        <line num="60" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="3"/>
+        <line num="71" type="stmt" count="3"/>
+        <metrics loc="72" ncloc="33" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
+      </file>
+      <file name="/var/www/html/projects/linio-challenge/src/Number.php">
+        <class name="juniorb2ss\LinioChallenge\Number" namespace="juniorb2ss\LinioChallenge">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="25" type="method" name="build" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="28" type="stmt" count="4"/>
+        <line num="30" type="stmt" count="4"/>
+        <metrics loc="32" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/var/www/html/projects/linio-challenge/src/Response.php">
+        <class name="juniorb2ss\LinioChallenge\Response" namespace="juniorb2ss\LinioChallenge">
+          <metrics complexity="6" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="14" coveredelements="14"/>
+        </class>
+        <line num="19" type="method" name="addResponseValue" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="28" type="method" name="addResponseArray" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="30" type="stmt" count="7"/>
+        <line num="31" type="stmt" count="7"/>
+        <line num="37" type="method" name="getResponseArrayData" visibility="private" complexity="1" crap="1" count="7"/>
+        <line num="39" type="stmt" count="7"/>
+        <line num="42" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="47" type="method" name="toString" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="52" type="method" name="toJson" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <metrics loc="56" ncloc="42" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="14" coveredelements="14"/>
+      </file>
+    </package>
+    <file name="/var/www/html/projects/linio-challenge/src/Contracts/ArrayResponseInterface.php">
+      <metrics loc="15" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/projects/linio-challenge/src/Contracts/JsonResponsableInterface.php">
+      <metrics loc="15" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/projects/linio-challenge/src/Contracts/NumberInterface.php">
+      <metrics loc="16" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/projects/linio-challenge/src/Contracts/ResponseInterface.php">
+      <metrics loc="28" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="8" loc="316" ncloc="172" classes="4" methods="14" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="31" elements="45" coveredelements="45"/>
+  </project>
+</coverage>

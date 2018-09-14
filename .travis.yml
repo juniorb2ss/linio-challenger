@@ -1,0 +1,14 @@
+language: php
+
+php:
+  - 7.1
+
+dist: trusty
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer install --prefer-source --no-interaction --dev
+addons:
+  code_climate:
+    repo_token: 281836a195e1dd52640196a6ce9af59e5951cce5b46d77fcbd7e2f899e3e20ef
+script: vendor/bin/phpunit
