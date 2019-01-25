@@ -2,12 +2,12 @@
 
 namespace juniorb2ss\LinioChallenge;
 
-use juniorb2ss\LinioChallenge\Contracts\NumberInterface;
+use juniorb2ss\LinioChallenge\Contracts\NumbersInterface;
 
 /**
  *
  */
-class Number implements NumberInterface
+class Numbers implements NumbersInterface
 {
     /**
      * Initial number from range

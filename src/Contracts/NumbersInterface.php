@@ -5,7 +5,7 @@ namespace juniorb2ss\LinioChallenge\Contracts;
 /**
 *
 */
-interface NumberInterface
+interface NumbersInterface
 {
    
     /**

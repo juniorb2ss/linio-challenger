@@ -5,7 +5,7 @@ namespace juniorb2ss\LinioChallenge\Contracts;
 /**
 *
 */
-interface JsonResponsableInterface
+interface JsonResponseInterface
 {
     /**
      * Return data in json type

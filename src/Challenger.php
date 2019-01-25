@@ -2,8 +2,8 @@
 
 namespace juniorb2ss\LinioChallenge;
 
-use juniorb2ss\LinioChallenge\Number;
-use juniorb2ss\LinioChallenge\Contracts\NumberInterface;
+use juniorb2ss\LinioChallenge\Numbers;
+use juniorb2ss\LinioChallenge\Contracts\NumbersInterface;
 use juniorb2ss\LinioChallenge\Contracts\ResponseInterface;
 use juniorb2ss\LinioChallenge\Abstracts\ChallengerAbstract;
 
@@ -15,15 +15,15 @@ final class Challenger extends ChallengerAbstract
     /**
      * [__construct description]
      * @param \juniorb2ss\LinioChallenge\Contracts\ResponseInterface|null $response
-     * @param \juniorb2ss\LinioChallenge\Contracts\NumberInterface|null   $numberFactory
+     * @param \juniorb2ss\LinioChallenge\Contracts\NumbersInterface|null   $numberFactory
      */
-    public function __construct(ResponseInterface $response = null, NumberInterface $numberFactory = null)
+    public function __construct(ResponseInterface $response = null, NumbersInterface $numberFactory = null)
     {
         // response instance
         $responseInstance = $response ?? (new Response);
 
         // number factory class to generate range of numbers
-        self::$numberFactory = $numberFactory ?? (new Number);
+        self::$numberFactory = $numberFactory ?? (new Numbers);
 
         // set response handler
         $this->setResponse($responseInstance);

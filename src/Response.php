@@ -4,12 +4,12 @@ namespace juniorb2ss\LinioChallenge;
 
 use juniorb2ss\LinioChallenge\Contracts\ResponseInterface;
 use juniorb2ss\LinioChallenge\Contracts\ArrayResponseInterface;
-use juniorb2ss\LinioChallenge\Contracts\JsonResponsableInterface;
+use juniorb2ss\LinioChallenge\Contracts\JsonResponseInterface;
 
 /**
 *
 */
-class Response implements ResponseInterface, JsonResponsableInterface, ArrayResponseInterface
+class Response implements ResponseInterface, JsonResponseInterface, ArrayResponseInterface
 {
     /**
      * @var array
